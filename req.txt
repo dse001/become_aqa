@@ -1,0 +1,4 @@
+pydantic  ==  1.10.1
+requests  ==  2.25.1
+selenium  ==  4.4.0
+pytest    ==  7.1.2
