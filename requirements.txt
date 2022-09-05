@@ -1,0 +1,7 @@
+requests  ==  2.25.1
+selenium  ==  4.4.0
+pytest    ==  7.1.2
+
+!Need install PATH to chromedriver
+!Need put PATH in ~/config/config_qa ==> ( class Conf: path_provider_conf = 'you providers_data path')
+!Need put PATH in ~/config/config_gender.py ==> ( class ConfGender: path_provider_conf = 'you providers_data path')

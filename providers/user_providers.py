@@ -1,20 +1,8 @@
-from pydantic import BaseModel
-# Home work!
-class UsersExists(BaseModel):
-    username : str
-    id: int
-    fakeusername : str
-user_providers = """{
-"username" : "defunkt",
-"id" : 2,
-"fakeusername" : "fghfhyfhgjgjg78ugjyujh"
-}
-"""
-out = UsersExists.parse_raw(user_providers)
+import json
+from config.qa_conf import Conf
+# Home work! v2
 
-
-
-
-
-print(out.id)
+class UserProvider:
+    with open (Conf.path_provider_conf) as file:
+        data = json.load(file)
 

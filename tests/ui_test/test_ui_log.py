@@ -13,6 +13,8 @@ elemp.send_keys("yukyuiyujhuuiiy8877")
 elemp.send_keys(Keys.ENTER)
 driver.implicitly_wait(2)
 assert driver.find_element(By.ID, 'js-flash-container').is_displayed() == True
+assert  driver.find_element(By.ID, 'js-flash-container').text == 'Incorrect username or password.' #Homework v2
 driver.close()
-#assert find_err.text == 'Incorrect username or password.'
+
+
 
