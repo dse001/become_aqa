@@ -10,4 +10,6 @@
 1. [tests](/tests/) This part consist test set's
 1. [reports](/reports/) This part will consist reprts about frameworks work
 
-
+!Need install PATH to chromedriver
+!Need put PATH in ~/config/config_qa ==> ( class Conf: path_provider_conf = 'you providers_data path')
+!Need put PATH in ~/config/config_gender.py ==> ( class ConfGender: path_provider_conf = 'you providers_data path')

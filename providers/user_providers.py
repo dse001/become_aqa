@@ -4,5 +4,5 @@ from config.qa_conf import Conf
 
 class UserProvider:
     with open (Conf.path_provider_conf) as file:
-        data = json.load(file)
+        user_data = json.load(file)
 
